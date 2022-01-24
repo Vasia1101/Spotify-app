@@ -7,6 +7,7 @@ module.exports = {
       'res.cloudinary.com',
       'links.papareact.com',
       'i.scdn.co',
+      'mosaic.scdn.co',
     ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 2628000,
