@@ -21,9 +21,8 @@ export default function Song({
             uris: [uri],
         })
     };
-    console.log(track);
+    
     const srcImage = album?.images[0]?.url || '';
-    console.log(srcImage);
 
     return (
         <ul className='list-none grid grid-cols-2 text-gray-500 py-4 px-5 hover:bg-gray-900 rounded-lg cursor-pointer' onClick={playSong}>
