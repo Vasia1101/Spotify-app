@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import useSpotify from '../hooks/useSpotify'
 import { currentTrackIdState } from '../atom/songAtom'
 import { useRecoilState } from 'recoil'

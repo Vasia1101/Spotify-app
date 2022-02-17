@@ -8,6 +8,7 @@ module.exports = {
       'links.papareact.com',
       'i.scdn.co',
       'mosaic.scdn.co',
+      'newjams-images.scdn.co',
     ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 2628000,
