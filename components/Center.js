@@ -34,7 +34,6 @@ export default function Center() {
         if(status !== 'loading') {
             spotifyApi.getPlaylist(playlistId)
             .then((data) => {
-                console.log(playlistId);
                 setPlaylist(data?.body)
             })
             .catch((err) => {

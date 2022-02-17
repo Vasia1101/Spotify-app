@@ -6,7 +6,6 @@ import Song from './Song'
 
 export default function Songs() {
     const playlist = useRecoilValue(playlistState);
-    console.log(playlist?.tracks?.items);
     const { items } = playlist?.tracks || {};
     return (
         <div className='px-8 flex flex-col space-y-1 pb-28 text-slate-100'>

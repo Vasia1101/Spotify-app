@@ -11,7 +11,6 @@ export default function useSpotify() {
     const { data: session, status} = useSession();
 
     useEffect(() => {
-        console.log("status", status);
         if (session) {
             session.error === 'RefresToken' && signIn();
 
